@@ -50,4 +50,31 @@ Route::get('/add-product-detail','ProductdetailController@add_product_detail');
 Route::post('/save-product-detail','ProductdetailController@save_product_detail');
 Route::get('/update-product-detail/{product_id}','ProductdetailController@update_product_detail');
 Route::get('/edit-product-detail/{product_id}','Productdetailcontroller@edit_product_detail');
+<<<<<<< HEAD
 Route::get('/del-product-detail/{product_id}','Productdetailcontroller@del_product_detail');
+=======
+Route::get('/del-product-detail/{product_id}','Productdetailcontroller@del_product_detail');
+//frontened
+Route::get('/', 'HomeController@index');
+Route::get('/trang-chu','HomeController@index');
+Route::post('/tim-kiem','HomeController@search');
+
+Route::get('/dangnhap','Pagecontroller@login');
+
+// Route::get('/dangnhap',[
+//     'as'=>'dangnhap',
+//     'uses'=>'Pagecontroller@postDangnhap'
+//     ]);
+//     Route::get('dangky',[
+//     'as'=>'dangky',
+//     'uses'=>'Pagecontroller@getDangky'
+//     ]);
+//     Route::post('dangky',[
+//     'as'=>'dangky',
+//     'uses'=>'Pagecontroller@postDangky'
+//     ]);
+//     Route::get('dangxuat',[
+//     'as'=>'dangxuat',
+//     'uses'=>'Pagecontroller@getDangxuat'
+//     ]);
+>>>>>>> 804b3dbf7c9e6f8a24b9c1044ef1ef24b3d6dc71

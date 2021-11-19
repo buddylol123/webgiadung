@@ -51,8 +51,14 @@
             <td><span class="text-ellipsis">{{ $cat_pro->tenloai }}</span></td>
             
             <td>
+<<<<<<< HEAD
               <a href="{{URL::to('/edit-category-product/'.$cat_pro->maloai)}}" class="active" ui-toggle-class=""><i class="fa fa-pencil text-info text-active"></i></a>
               <a onclick="return confirm('Bạn có muốn xóa không?')" href="{{URL::to('/delete-category-product/'.$cat_pro->maloai)}}" class="active" ui-toggle-class=""><i class="fa fa-times text-danger text"></i></a>
+=======
+              <a href="" class="active" ui-toggle-class="">
+                <i class="fa fa-pencil text-info text-active">
+                  </i><i class="fa fa-times text-danger text"></i></a>
+>>>>>>> 804b3dbf7c9e6f8a24b9c1044ef1ef24b3d6dc71
             </td>
          
           </tr>
